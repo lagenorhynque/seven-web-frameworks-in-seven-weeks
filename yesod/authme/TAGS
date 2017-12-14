@@ -1,0 +1,195 @@
+
+./app/devel.hs,30
+main main4,5
+main main5,6
+
+./app/DevelMain.hs,274
+module DevelMain DevelMain30,31
+update update46,47
+update update47,48
+shutdown shutdown82,83
+shutdown shutdown83,84
+tidStoreNum tidStoreNum92,93
+tidStoreNum tidStoreNum93,94
+modifyStoredIORef modifyStoredIORef95,96
+modifyStoredIORef modifyStoredIORef96,97
+
+./app/main.hs,30
+main main3,4
+main main4,5
+
+./src/Application.hs,835
+module ApplicationApplication7,8
+makeFoundation makeFoundation55,56
+makeFoundation makeFoundation56,57
+makeApplication makeApplication90,91
+makeApplication makeApplication91,92
+makeLogWare makeLogWare97,98
+makeLogWare makeLogWare98,99
+warpSettings warpSettings112,113
+warpSettings warpSettings113,114
+getApplicationDev getApplicationDev127,128
+getApplicationDev getApplicationDev128,129
+getAppSettings getAppSettings135,136
+getAppSettings getAppSettings136,137
+develMain develMain139,140
+develMain develMain140,141
+appMain appMain143,144
+appMain appMain144,145
+getApplicationRepl getApplicationRepl166,167
+getApplicationRepl getApplicationRepl167,168
+shutdownApp shutdownApp174,175
+shutdownApp shutdownApp175,176
+handler handler183,184
+handler handler184,185
+db db187,188
+db db188,189
+
+./src/Foundation.hs,838
+module Foundation Foundation9,10
+data App App30,31
+data App = AppApp30,31
+    { appSettings appSettings31,32
+    , appStatic appStatic32,33
+    , appConnPool appConnPool33,34
+    , appHttpManager appHttpManager34,35
+    , appLogger appLogger35,36
+data MenuItem MenuItem38,39
+data MenuItem = MenuItemMenuItem38,39
+    { menuItemLabel menuItemLabel39,40
+    , menuItemRoute menuItemRoute40,41
+    , menuItemAccessCallback menuItemAccessCallback41,42
+data MenuTypesMenuTypes44,45
+    = NavbarLeft NavbarLeft45,46
+    | NavbarRight NavbarRight46,47
+type Form Form63,64
+type Form x x63,64
+type DB DB66,67
+type DB a a66,67
+instance instance71,72
+isAuthenticated isAuthenticated230,231
+isAuthenticated isAuthenticated231,232
+unsafeHandler unsafeHandler250,251
+unsafeHandler unsafeHandler251,252
+
+./src/Handler/Comment.hs,106
+module Handler.Comment Handler.Comment0,1
+postCommentR postCommentR4,5
+postCommentR postCommentR5,6
+
+./src/Handler/Common.hs,162
+module Handler.Common Handler.Common6,7
+getFaviconR getFaviconR14,15
+getFaviconR getFaviconR15,16
+getRobotsR getRobotsR19,20
+getRobotsR getRobotsR20,21
+
+./src/Handler/Direct.hs,171
+module Handler.Direct Handler.Direct3,4
+authLinkWidget authLinkWidget8,9
+authLinkWidget authLinkWidget9,10
+getDirectR getDirectR14,15
+getDirectR getDirectR15,16
+
+./src/Handler/Home.hs,84
+module Handler.Home Handler.Home3,4
+getHomeR getHomeR7,8
+getHomeR getHomeR8,9
+
+./src/Handler/Profile.hs,105
+module Handler.Profile Handler.Profile5,6
+getProfileR getProfileR9,10
+getProfileR getProfileR10,11
+
+./src/Import/NoFoundation.hs,51
+module Import.NoFoundationImport.NoFoundation1,2
+
+./src/Import.hs,25
+module ImportImport0,1
+
+./src/Model.hs,25
+module Model Model9,10
+
+./src/Settings/StaticFiles.hs,54
+module Settings.StaticFiles Settings.StaticFiles3,4
+
+./src/Settings.hs,1489
+module Settings Settings10,11
+import import14,15
+data AppSettings AppSettings28,29
+data AppSettings = AppSettingsAppSettings28,29
+    { appStaticDir appStaticDir29,30
+    , appDatabaseConf appDatabaseConf31,32
+    , appRoot appRoot33,34
+    , appHost appHost36,37
+    , appPort appPort38,39
+    , appIpFromHeader appIpFromHeader40,41
+    , appDetailedRequestLogging appDetailedRequestLogging44,45
+    , appShouldLogAll appShouldLogAll46,47
+    , appReloadTemplates appReloadTemplates48,49
+    , appMutableStatic appMutableStatic50,51
+    , appSkipCombining appSkipCombining52,53
+    , appCopyright appCopyright56,57
+    , appAnalytics appAnalytics58,59
+    , appAuthDummyLogin appAuthDummyLogin61,62
+instance instance65,66
+widgetFileSettings widgetFileSettings101,102
+widgetFileSettings widgetFileSettings102,103
+combineSettings combineSettings105,106
+combineSettings combineSettings106,107
+widgetFile widgetFile111,112
+widgetFile widgetFile112,113
+configSettingsYmlBS configSettingsYmlBS118,119
+configSettingsYmlBS configSettingsYmlBS119,120
+configSettingsYmlValue configSettingsYmlValue122,123
+configSettingsYmlValue configSettingsYmlValue123,124
+compileTimeAppSettings compileTimeAppSettings127,128
+compileTimeAppSettings compileTimeAppSettings128,129
+combineStylesheets combineStylesheets139,140
+combineStylesheets combineStylesheets140,141
+combineScripts combineScripts144,145
+combineScripts combineScripts145,146
+
+./test/Handler/CommentSpec.hs,82
+module Handler.CommentSpec Handler.CommentSpec2,3
+spec spec7,8
+spec spec8,9
+
+./test/Handler/CommonSpec.hs,80
+module Handler.CommonSpec Handler.CommonSpec0,1
+spec spec4,5
+spec spec5,6
+
+./test/Handler/DirectSpec.hs,80
+module Handler.DirectSpec Handler.DirectSpec0,1
+spec spec4,5
+spec spec5,6
+
+./test/Handler/HomeSpec.hs,76
+module Handler.HomeSpec Handler.HomeSpec2,3
+spec spec6,7
+spec spec7,8
+
+./test/Handler/ProfileSpec.hs,82
+module Handler.ProfileSpec Handler.ProfileSpec2,3
+spec spec6,7
+spec spec7,8
+
+./test/Spec.hs,0
+
+./test/TestImport.hs,403
+module TestImportTestImport3,4
+runDB runDB27,28
+runDB runDB28,29
+runHandler runHandler32,33
+runHandler runHandler33,34
+withApp withApp37,38
+withApp withApp38,39
+wipeDB wipeDB51,52
+wipeDB wipeDB52,53
+getTables getTables74,75
+getTables getTables75,76
+authenticateAs authenticateAs82,83
+authenticateAs authenticateAs83,84
+createUser createUser91,92
+createUser createUser92,93

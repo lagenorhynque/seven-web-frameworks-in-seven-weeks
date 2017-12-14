@@ -1,0 +1,3 @@
+/auth   AuthR   Auth   getAuth
+/ HomeR GET
+/secret SecretR GET
