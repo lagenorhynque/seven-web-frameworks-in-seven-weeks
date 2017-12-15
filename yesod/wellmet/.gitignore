@@ -19,3 +19,5 @@ cabal.sandbox.config
 *~
 \#*
 wellmet.cabal
+.dir-locals.el
+TAGS
